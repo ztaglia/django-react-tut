@@ -9,3 +9,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
+dependencies:
+    connectionReferences:
+    - name: backend
+      resourceRef: service:/django-react-tut/backend/v1/be2b5/PUBLIC
